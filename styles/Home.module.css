@@ -29,8 +29,10 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #7126b5;
   text-decoration: none;
+  font-weight: bold;
+
 }
 
 .title a:hover,
@@ -42,7 +44,12 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 1.3rem;
+}
+
+.produk {
+  text-decoration: none;
+  color: black;
 }
 
 .title,
@@ -103,14 +110,6 @@
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
+/* .image-upload>input {
+  display: none;
+} */
