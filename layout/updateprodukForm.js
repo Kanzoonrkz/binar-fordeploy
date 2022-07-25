@@ -40,7 +40,7 @@ function EditProdukLayout({product, token}) {
         url: `${API}/products/${product.id}`,
         data: data,
         headers: {
-          Authorization: `Bearer ${localStorage.getItem("user_token")}`,
+          Authorization: `Bearer ${token}`,
           "Content-Type": `multipart/form-data`,
         },
       });
